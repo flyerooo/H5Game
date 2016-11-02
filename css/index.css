@@ -5,6 +5,10 @@ html,body,div{
     margin: 0;
     padding: 0;
 }
+body{
+    background: #000;
+    color: #fff;
+}
 .game-container,.start-container{
     position: relative;
     box-sizing: content-box;
@@ -18,9 +22,12 @@ html,body,div{
     background: url("../images/bg.jpeg");
     background-size:cover;
     width: 390px;
+    padding-top: 280px;
+    box-sizing: border-box;
 }
 .start-container p{
     text-align: center;
+    margin-top: 40px;
 }
 .start-container p button{
     width: 200px;
@@ -36,6 +43,9 @@ html,body,div{
 }
 .start-container p button:hover{
     background: lightsalmon;
+}
+.game-container{
+    display: none;
 }
 .game-main-panel{
     position: absolute;
